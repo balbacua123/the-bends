@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Bends (Album)</title>
+
     <style>
       body {
         background-image: url("red-background-high-quality-free-photo.jpg");
         background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
       }
+
+      /* Fixed width container */
+      .fixed-container {
+        width: 1920px;   /* lock to full HD width */
+        margin: 0 auto;  /* center horizontally */
+        position: relative;
+      }
+
       .theBends {
         height: 26rem;
         border-radius: 100px;
@@ -16,24 +29,26 @@
         margin-top: 10px;
         position: relative;
       }
+
       audio {
         position: absolute;
-        size: 10px;
         top: 23rem;
         left: 100px;
         height: 40px;
       }
+
       .title {
         color: white;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 35px;
       }
+
       .description {
         color: white;
         font-size: 30px;
         padding-top: 1rem;
         font-family: "Times New Roman", Times, serif;
       }
+
       .tds {
         text-align: center;
         padding: 10px;
@@ -41,6 +56,7 @@
         margin-right: 6rem;
         margin-top: 35px;
       }
+
       .tracklist {
         font-style: italic;
         font-weight: bold;
@@ -51,43 +67,47 @@
         margin-top: 30px;
         margin-left: 25px;
       }
+
       .platforms {
         float: right;
         margin-left: 10px;
-        gap: 1px;
         margin-top: -225px;
       }
+
       .platforms img {
         height: 100px;
         border-radius: 50px;
         margin-right: 10rem;
-        gap: 60px;
         cursor: pointer;
         transition: transform 0.3s ease;
       }
+
       .platforms img:hover {
         transform: scale(1.9);
       }
+
       .heart {
         color: rgba(255, 7, 201, 0.747);
         font-size: 20px;
         margin-left: 87rem;
       }
+
       .heart:hover {
         color: rgba(192, 14, 192, 0.637);
       }
     </style>
   </head>
   <body>
-    <img
-      src="Radioheadthebends.png"
-      alt="The Bends - Album Cover"
-      class="theBends"
-    />
-    <audio controls autoplay><source src="fakeplastictrees.mp3" /></audio>
-    <div class="tds">
-      <h1 class="title"><i>THE BENDS (ALBUM)</i></h1>
-      <pre class="description">
+    <div class="fixed-container">
+      <img src="Radioheadthebends.png" alt="The Bends - Album Cover" class="theBends" />
+
+      <audio controls autoplay>
+        <source src="fakeplastictrees.mp3" />
+      </audio>
+
+      <div class="tds">
+        <h1 class="title"><i>THE BENDS (ALBUM)</i></h1>
+        <pre class="description">
      <strong><i>The Bends</i></strong> is the second studio album by the English
      rock band <u>Radiohead</u>, released on 13 March 1995 by Parlophone.
      It was produced by <u>John Leckie</u>, with extra production by Radiohead,
@@ -95,43 +115,33 @@
      and ballads,with more restrained arrangements and cryptic
      lyrics than Radiohead's debut album, <u>Pablo Honey</u>(1993).
     </pre>
+      </div>
+
+      <ul class="tracklist">
+        <li>1. Planet Telex</li>
+        <li>2. The Bends</li>
+        <li>3. High and Dry</li>
+        <li>4. Fake Plastic Trees</li>
+        <li>5. Bones</li>
+        <li>6. (Nice Dream)</li>
+        <li>7. Just</li>
+        <li>8. My Iron Lung</li>
+        <li>9. Bullet Proof.. I Wish I Was</li>
+      </ul>
+
+      <div class="platforms">
+        <a href="https://open.spotify.com/album/35UJLpClj5EDrhpNIi4DFg" target="_blank">
+          <img src="png-clipart-spotify-logo.png" alt="Spotify" />
+        </a>
+        <a href="https://music.apple.com/us/album/the-bends/1097862703" target="_blank">
+          <img src="unnamed.webp" alt="Apple Music" />
+        </a>
+        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mjfZt29ZKuw9FnglSH4_LLqWBPIPicLjI" target="_blank">
+          <img src="images-removebg-preview.png" alt="YouTube Music" />
+        </a>
+      </div>
+
+      <a href="https://www.facebook.com/aprilheart.silauso.5" target="_blank" class="heart">pa add sa fb</a>
     </div>
-    <ul class="tracklist">
-      <li>1. Planet Telex</li>
-      <li>2. The Bends</li>
-      <li>3. High and Dry</li>
-      <li>4. Fake Plastic Trees</li>
-      <li>5. Bones</li>
-      <li>6. (Nice Dream)</li>
-      <li>7. Just</li>
-      <li>8. My Iron Lung</li>
-      <li>9. Bullet Proof.. I Wish I Was</li>
-    </ul>
-    <div class="platforms">
-      <a
-        href="https://open.spotify.com/album/35UJLpClj5EDrhpNIi4DFg?si=QnQu7ctaQ42SMrpsNsD1Ng&nd=1&dlsi=5c8a5cede4044014"
-        target="_blank"
-      >
-        <img src="sda.png" alt="Spotify" />
-      </a>
-      <a
-        href="https://music.apple.com/us/album/the-bends/1097862703"
-        target="_blank"
-      >
-        <img src="unnamed.webp" alt="Spotify" />
-      </a>
-      <a
-        href="https://music.youtube.com/playlist?list=OLAK5uy_mjfZt29ZKuw9FnglSH4_LLqWBPIPicLjI"
-        target="_blank"
-      >
-        <img src="images-removebg-preview.png" alt="Spotify" />
-      </a>
-    </div>
-    <a
-      href="https://www.facebook.com/aprilheart.silauso.5"
-      target="_blank"
-      class="heart"
-      >pa add sa fb</a
-    >
   </body>
 </html>
